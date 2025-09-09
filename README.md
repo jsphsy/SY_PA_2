@@ -1,38 +1,25 @@
-# Introduction to Python Programming: Experiment#1
+# Numerical Python: Experiment#2
 
-This repository contains solutions to three Python programming exercises as part of an Introductory Python Programming Experiment.
+This repository contains solutions to two Python programming exercises as part of the Numerical Python Programming Experiment.
 
 # EXERCISES:
-1) Alphabet Soup Problem
-Task: Create a function that takes a string with its letters in alphabetical order.
+1) Normalization Problem
+Task: This involves centering an scaling process. Create a random 5x5 ndarray and store it to variable X.
 
-Example: alphabet_soup("hello") -> "ehllo"
 
-2) Emoticon Problem
-Task: Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad, and mad with their corresponding emoticon:
-Smile -> :)
-Grin -> :D
-Sad -> :((
-Mad -> >:(
 
-Example: emotify("Make me smile") -> "Make me :)"
+2) Divisible by 3 Problem
+Task: Create the following 10x10 ndarray. Which are the squares of the first 100 positive integers. From this ndarray, determine all the elements that are divisible by 3.
 
-3) Unpacking List Problem
-Task: Unpack a list into three variables: first, middle, last, with middle containing everything between the first and last element. Then print all three variables.
 
-Example: list = [1, 2, 3, 4, 5, 6]
-
-Output: first: 1, middle: [2, 3, 4, 5], last: 6
 
 # Implementation:
-The solutions are implemented in a Jupyter Notebook file (.ipynb) conatining:
+The solutions are implemented in a Jupyter Notebook file (.ipynb) and .npy files conatining:
 1) Function definitions for each problems
 2) Test cases with expected outputs
 3) Clear documentation and comments
 
 # Learning Outcomes:
 Through these exercises, you will:
-- Identify basic codes and functions in Python Programming
-- Apply different codes and functions to create Python Programs
-- Practice string manipulation and list operations
-- Work with function definitions and return statements
+- Identify the codes and functions incorporated in the Numpy library.
+- To be able to apply and use the different codes and functions in creating a Python program using a Numpy library.
